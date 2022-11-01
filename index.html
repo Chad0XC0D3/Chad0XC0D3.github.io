@@ -6,80 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b770d77785.js" crossorigin="anonymous"></script>
-    <title></title>
+    <title>Portfolio</title>
 </head>
 <body>
-        <!-- nav section -->
-        <div class="contaner-nav" id="home">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        </div>
-        
-            <article class="header">
-            <!-- About -->
-            <h1 class="first-child " id="title">Hello World</h1>
-            <div class="img-contaner ">
-                <div class="first-child" id="img">
-                 
-                </div>
-              </div>
-            <div class="intro" id="#about">
-                <h2>My Name is Chad Harris</h2>
-                <p>A little about me: </p>
-                <p class="intro words grand-child-1">
-                   I'm 20 years old and have been doing web develoment as a hobby for a couple of years, only recently<br>
-                    turning it into a profession. I'm a junior web developer. 
-                    A recent graduate of  Commonwealth coders. 
-                </p>
 
+
+    <!-- nav -->
+<nav class="nav-bar">  
+   <ul>
+    <!-- <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li> -->
+    <li><a href="#projects-page">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+   </ul>
+</nav> 
+
+<div class="home" id="home">
+
+    <!-- header -->
+    <article class="header">
+
+        <!-- hello world -->
+        <h1 class="first-child title" id="title">Hello World</h1>
+    
+        <!-- img element -->
+        <div class="img-contaner ">
+            <div id="img">
                 
             </div>
-            <!-- <span class="text-primary">August 2022 - December 2022</span> -->
-
-        </article>
-        
-    
-    <!-- Skills section -->
-    <section class="intro parent" id="skills">
-        
-         <!-- <video autoplay muted loop id="myVideo">
-            <source src="Media/html.mp4" type="video/mp4">
-          </video> -->
-        
-          <div class="skills" id="skills">
-
-          <h2 class="skills" id="one">Skills</h2>
-
-          <span class="date" id="two">August 2022 - present</span>
-
-          <ul class="skills-contaner " id="three">
-              <li>JavaScript</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Python</li>
-
-              <br>
-
-              <ul>
-                <h3>anticipated skills</h3>
-
-                <br>
-
-                <li>React</li>
-                <li>Node</li>
-              </ul>
-          </ul>
           </div>
-    </section>
-    
 
-    <!-- projects -->
+          <!-- intro  -->
+        <div class="intro" id="#about">
 
-    <div class="hidden fold"> </div>
+            <!-- title name -->
+            <div class="intro title">
+            <h1 class="title">Chad Harris</h1>
+            
+            <h4 class="under">Junior Web Developer</h4>
+            </div> 
+
+            
+            <!-- about -->
+            <p>A little about me: </p>
+            <!-- main intro p tag -->
+            <p class="intro words grand-child-1">
+               I'm 20 years old and have been doing web develoment as a hobby for a couple of years, only recently<br>
+                turning it into a profession. I'm a junior web developer. 
+                A recent graduate of  Commonwealth coders. 
+            </p>
+
+            
+        </div>
+        <!-- <span class="text-primary">August 2022 - December 2022</span> -->
+
+    </article>
+
+
+    <div class="skills" id="skills">
+
+        <h2 class="skills" id="one">Skills</h2>
+
+        <span class="date" id="two">August 2022 - present</span>
+
+        <ul class="skills-contaner " id="three">
+            <!-- main skills -->
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+
+            <!--anticipated skills -->
+            <br>
+              <h3>Anticipated skills</h3>
+              <br>
+              <li>
+                <ul class="anticipated-skills">
+                    <li>React.js</li>
+                    <li>node.js</li>
+                </ul>
+              </li>
+
+        </ul>
+        </div>
+  </section>
+</div>
+
+<div class="hidden fold"> </div>
     <article class="projects" id="projects-page">
         
         <div class="first-a" id="first-a">
@@ -102,21 +115,15 @@
     
 
     <!-- contact -->
-    <section class="contact">
-        
-<i class="fa-thin fa-user"></i>
-        <a href="https://docs.google.com/document/d/1rSWaJJgHrOXv293ghFA2EYpq3c3jT3wKXRcUZVEh4CA/edit?usp=sharing" target="_blank">Resume</a>
+    <section id="contact">
+        <div class="contact">
+        <a href="https://docs.google.com/document/d/1rSWaJJgHrOXv293ghFA2EYpq3c3jT3wKXRcUZVEh4CA/edit?usp=sharing" target="_blank"><i class="fa-thin fa-user"></i></a>
 
-        <i class="fa-solid fa-phone"></i>
-        <a href="">859-221-1430</a>
-        <br>
-        <i class="fa-brands fa-linkedin"></i>
-        <a href="https://www.linkedin.com/in/chadwick-harris-b5310b229" target="_blank">Linkedin</a>
+        
+        <a href="https://www.linkedin.com/in/chadwick-harris-b5310b229" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
     </section>
 
-
-
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
