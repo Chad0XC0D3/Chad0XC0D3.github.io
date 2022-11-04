@@ -180,6 +180,10 @@ li{
     padding: 40px 10px;
 }
 
+.projects a:hover{
+    color: blueviolet;
+}
+
 .projects div{
     display: flex;
     justify-content: space-between;    
@@ -197,8 +201,12 @@ li{
 .contact a{
     margin: 10px;
     font-size: 60px;
+    color: black;
 }
 
+.contact a:hover{
+    color: blueviolet;
+}
 
 /* phone breakpoints / media */
 @media(max-width: 600px){
